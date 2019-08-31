@@ -1,6 +1,6 @@
 # timur-eslint-config
 
-[npm](https://www.npmjs.com/package/timur-eslint-config)
+[![npm version](https://badge.fury.io/js/timur-eslint-config.svg)](https://badge.fury.io/js/timur-eslint-config)
 
 My personal opinionated eslint config that can be written into any project with a simple command. 
 
