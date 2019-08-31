@@ -1,4 +1,4 @@
-# timur-eslint-config
+# [timur-eslint-config](https://www.npmjs.com/package/timur-eslint-config)
 
 My personal opinionated preference eslint config that can be written into any project with a simple command. prettier-eslint-cli is also installed as a dev dependency
 
