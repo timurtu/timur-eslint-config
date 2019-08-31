@@ -10,7 +10,7 @@ You must have node and yarn installed on your machine
 ## install as a global dependency
 
 ```
-npm i -g timur-eslint-config
+yarn global add timur-eslint-config
 ```
 
 ## Usage
