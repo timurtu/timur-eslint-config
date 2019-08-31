@@ -2,7 +2,15 @@
 
 [npm](https://www.npmjs.com/package/timur-eslint-config)
 
-My personal opinionated preference eslint config that can be written into any project with a simple command. prettier-eslint-cli is also installed as a dev dependency. It's used for JavaScript, React, and React Native projects. To get a feel for the style you could look at the eslint config. You can also easily integrate with Webstorm file watching
+My personal opinionated preference eslint config that can be written into any project with a simple command. 
+
+This was made for me to use because I always find myself reusing my config and copying files so I would like to keep all of my personal codestyle preferences in one centralized place so that I easily use them on any project.
+
+prettier-eslint-cli is also installed as a dev dependency along with all other required eslint dependencies 
+
+This config can be used for JavaScript, React, and React Native projects. To get a feel for the style you could look at the eslint config. 
+
+You can also easily integrate with Webstorm file watching.
 
 
 ## Prerequisites
