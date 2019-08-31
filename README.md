@@ -44,3 +44,4 @@ timur-eslint-config
 
 - This will be red if you did not first run __timur-eslint-config__ in the project root directory
 
+- And that's it! Your code will format with my codestyle on save 
