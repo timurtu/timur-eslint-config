@@ -14,7 +14,13 @@ const child_process = require('child_process')
 //
 // child_process.execSync(`touch ${localConfigPath}`)
 
-fs.writeFileSync(path.resolve('.eslintrc.js'), fs.readFileSync('.eslintrc.js', 'utf8'), {
+const localConfigPath = path.resolve('.eslintrc.js')
+const configContents = fs.readFileSync('.eslintrc.js', 'utf8')
+
+console.log('localConfigPath', localConfigPath)
+console.log('configContents', configContents)
+
+fs.writeFileSync(localConfigPath, configContents, {
   encoding: 'utf8',
   flag: 'w+'
 })
