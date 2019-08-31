@@ -14,4 +14,6 @@ if (fs.existsSync(localConfigPath)) {
   fs.unlinkSync(localConfigPath)
 }
 
+fs.linkSync('.eslintrc.js', localConfigPath)
+
 // fs.writeFileSync(localConfigPath, fs.readFileSync('.eslintrc.js', 'utf8'))
