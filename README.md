@@ -12,7 +12,6 @@ This config can be used for JavaScript, React, and React Native projects. To get
 
 You can also easily integrate with Webstorm file watching.
 
-
 ## Prerequisites
 
 You must have node and yarn installed on your machine
@@ -39,7 +38,7 @@ timur-eslint-config
 
 - Hit the plus icon, hit __Prettier__ then enter these settings
 
-
+![settings](https://github.com/timurtu/timur-eslint-config/raw/master/settings.png "settings")
 
 - Notice that we changed __$ProjectFileDir$/node_modules/.bin/prettier__ to __$ProjectFileDir$/node_modules/.bin/prettier-eslint__
 
