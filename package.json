@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git-patch": "git add . && git commit -m \"patch\" && git push"
+    "patch": "npm run git-patch && npm run npm-patch",
+    "git-patch": "git add . && git commit -m \"patch\" && git push",
+    "npm-patch": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
