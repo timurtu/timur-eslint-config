@@ -23,3 +23,15 @@ timur-eslint-config
 ## Integrate with Webstorm file watching
 
 - Go to __Webstorm>Preferences__ then in the top left search bar search for __file watchers__
+
+
+![file watchers](https://github.com/timurtu/timur-eslint-config/raw/master/file-watchers.png "file watchers")
+
+- Hit the plus icon, hit __Prettier__ then enter these settings
+
+
+
+- Notice that we changed __$ProjectFileDir$/node_modules/.bin/prettier__ to __$ProjectFileDir$/node_modules/.bin/prettier-eslint__
+
+- This will be red if you did not first run __timur-eslint-config__ in the project root directory
+
