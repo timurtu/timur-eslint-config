@@ -16,7 +16,7 @@ You can also easily integrate with Webstorm file watching.
 
 You must have node and yarn installed on your machine
 
-## install as a global dependency
+## Install as a global dependency
 
 ```
 yarn global add timur-eslint-config
