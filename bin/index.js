@@ -8,5 +8,8 @@ child_process.execSync('yarn add prettier-eslint-cli -D')
 
 const localConfigPath = path.resolve('.eslintrc.js')
 
-fs.unlinkSync(localConfigPath)
+if (fs.existsSync(localConfigPath)) {
+  fs.unlinkSync(localConfigPath)
+}
+
 fs.writeFileSync(localConfigPath, fs.readFileSync('.eslintrc.js', 'utf8'))
