@@ -2,7 +2,7 @@
 
 [npm](https://www.npmjs.com/package/timur-eslint-config)
 
-My personal opinionated preference eslint config that can be written into any project with a simple command. 
+My personal opinionated eslint config that can be written into any project with a simple command. 
 
 This was made for me to use because I always find myself reusing my config and copying files so I would like to keep all of my personal codestyle preferences in one centralized place so that I easily use them on any project.
 
