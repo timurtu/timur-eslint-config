@@ -14,6 +14,5 @@ if (fs.existsSync(localConfigPath)) {
   fs.unlinkSync(localConfigPath)
 }
 
-fs.linkSync('.eslintrc.js', localConfigPath)
-
+child_process.execSync(`touch ${localConfigPath}`)
 // fs.writeFileSync(localConfigPath, fs.readFileSync('.eslintrc.js', 'utf8'))
