@@ -1,0 +1,24 @@
+{
+  "name": "timur-eslint-config",
+  "version": "1.0.0",
+  "description": "My personal opinionated preference eslint config that can be written into any project with a simple command. prettier-eslint-cli is also installed as a dev dependency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurtu/timur-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "timur",
+    "config"
+  ],
+  "author": "Timur Uzel <timurt.uzel@gmail.com> (https://github.com/timurtu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timurtu/timur-eslint-config/issues"
+  },
+  "homepage": "https://github.com/timurtu/timur-eslint-config#readme"
+}
