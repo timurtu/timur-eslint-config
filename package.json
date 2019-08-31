@@ -7,10 +7,7 @@
     "timur-eslint-config": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "patch": "npm run git-patch && npm run npm-patch",
-    "git-patch": "git add . && git commit -m \"patch\" && git push",
-    "npm-patch": "npm version patch && npm publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
