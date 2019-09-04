@@ -7,7 +7,8 @@
     "timur-eslint-config": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp ./node_modules/timur-eslint-config/.eslintrc.js ."
   },
   "repository": {
     "type": "git",

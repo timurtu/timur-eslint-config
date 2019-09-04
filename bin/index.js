@@ -10,23 +10,8 @@ const dependencies = [
   'eslint-plugin-import',
   'eslint-plugin-node',
   'eslint-plugin-promise',
-  'eslint-plugin-react'
+  'eslint-plugin-react',
+  'timur-eslint-config'
 ]
 
 child_process.execSync(`yarn add ${dependencies.join(' ')} -D`)
-
-// const prefix = child_process.execSync('npm get prefix', { encoding: 'utf8' }).trim()
-// const timurConfigPath = path.join(prefix, 'lib/node_modules/timur-eslint-config/.eslintrc.js')
-// const timurConfigContents = fs.readFileSync(timurConfigPath, 'utf8')
-const localConfigPath = process.cwd() + '/.eslintrc.js'
-
-fs.writeFileSync(localConfigPath, require('../.eslintrc'), {
-  encoding: 'utf8',
-  flag: 'w+'
-})
-
-fs.writeFileSync(localConfigPath, 'module.exports = ', {
-  encoding: 'utf8',
-  flag: 'w+'
-})
-
