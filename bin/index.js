@@ -20,7 +20,13 @@ const timurConfigPath = path.join(prefix, 'lib/node_modules/timur-eslint-config/
 const timurConfigContents = fs.readFileSync(timurConfigPath, 'utf8')
 const localConfigPath = process.cwd() + '/.eslintrc.js'
 
-fs.writeFileSync(localConfigPath, timurConfigContents, {
+fs.writeFileSync(localConfigPath, require('../.eslintrc'), {
   encoding: 'utf8',
   flag: 'w+'
 })
+
+fs.writeFileSync(localConfigPath, 'module.exports = ', {
+  encoding: 'utf8',
+  flag: 'w+'
+})
+
