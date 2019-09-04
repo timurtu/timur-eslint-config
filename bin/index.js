@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const child_process = require('child_process')
+const exec = require('child_process').execSync
 
 const dependencies = [
   'prettier-eslint-cli',
@@ -12,7 +12,6 @@ const dependencies = [
   'timur-eslint-config'
 ]
 
-child_process.execSync(
-  `yarn add ${dependencies.join(' ')} -D && ` +
-  'cp ./node_modules/timur-eslint-config/.eslintrc.js .'
-)
+exec(`yarn add ${dependencies.join(' ')} -D`)
+
+exec('cp ./node_modules/timur-eslint-config/.eslintrc.js .')
