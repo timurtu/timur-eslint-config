@@ -27,5 +27,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': ['error', 'always'],
     camelcase: 'error',
+    'react/jsx-uses-react': 1,
+    'react/jsx-uses-vars': 1,
   },
 }
