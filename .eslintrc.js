@@ -24,6 +24,6 @@ module.exports = {
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
-    'object-curly-spacing': ['error', 'always']
-  }
+    'object-curly-spacing': ['error', 'always'],
+  },
 }
