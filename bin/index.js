@@ -15,3 +15,5 @@ const dependencies = [
 ]
 
 child_process.execSync(`yarn add ${dependencies.join(' ')} -D`)
+
+child_process.execSync('cp ./node_modules/timur-eslint-config/.eslintrc.js .')
