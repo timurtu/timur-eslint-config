@@ -3,6 +3,7 @@
 const exec = require('child_process').execSync
 
 const dependencies = [
+  'babel-eslint',
   'prettier-eslint-cli',
   'eslint-config-standard',
   'eslint-plugin-import',
